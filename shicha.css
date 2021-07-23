@@ -1,0 +1,68 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pimg1,
+.pimg2,
+.pimg3 {
+    position: relative;
+    opacity: 1;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: dong 5s linear infinite;
+}
+
+@keyframes dong {
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0.9;
+    }
+    50% {
+        opacity: 0.8;
+    }
+    75% {
+        opacity: 0.9;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.pimg1 {
+    background-image: url(forest.jpg);
+    min-height: 100%;
+}
+
+.pimg2 {
+    background-image: url(aurora.jpg);
+    min-height: 100%;
+}
+
+.pimg3 {
+    background-image: url(dog.jpg);
+    min-height: 100%;
+}
+
+.pimg4 {
+    background-image: url(123.jpg);
+    min-height: 100%;
+}
+
+.ptext {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 3em;
+}
